@@ -181,8 +181,7 @@ To contribute to this project:
 
 For questions about the website or to request modifications, please contact:
 
-- **Email**: info@marcimetzger.com
-- **Phone**: (555) 123-4567
+- **Email**: thisismarkreal@gmail.com
 
 ## 📄 License
 
