@@ -48,6 +48,15 @@
             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
         }
         
+        .glass-nav .nav-text {
+            color: #1e293b !important;
+        }
+        
+        .nav-text {
+            color: white !important;
+            transition: color 0.3s ease;
+        }
+        
         .fade-up {
             opacity: 0;
             transform: translateY(30px);
@@ -113,24 +122,24 @@
             <div class="flex items-center justify-between h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
-                    <a href="#" class="text-2xl font-serif font-bold text-ink">Marci Metzger - THE RIDGE REALTY GROUP</a>
+                    <a href="#" class="nav-text text-2xl font-serif font-bold">Marci Metzger - THE RIDGE REALTY GROUP</a>
                 </div>
                 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="#home" class="text-ink hover:text-copper transition-colors duration-300 font-medium">Home</a>
-                        <a href="#about" class="text-ink hover:text-copper transition-colors duration-300 font-medium">About</a>
-                        <a href="#properties" class="text-ink hover:text-copper transition-colors duration-300 font-medium">Properties</a>
-                        <a href="#gallery" class="text-ink hover:text-copper transition-colors duration-300 font-medium">Gallery</a>
-                        <a href="#services" class="text-ink hover:text-copper transition-colors duration-300 font-medium">Services</a>
-                        <a href="#contact" class="text-ink hover:text-copper transition-colors duration-300 font-medium">Contact</a>
+                        <a href="#home" class="nav-text hover:text-copper transition-colors duration-300 font-medium">Home</a>
+                        <a href="#about" class="nav-text hover:text-copper transition-colors duration-300 font-medium">About</a>
+                        <a href="#properties" class="nav-text hover:text-copper transition-colors duration-300 font-medium">Properties</a>
+                        <a href="#gallery" class="nav-text hover:text-copper transition-colors duration-300 font-medium">Gallery</a>
+                        <a href="#services" class="nav-text hover:text-copper transition-colors duration-300 font-medium">Services</a>
+                        <a href="#contact" class="nav-text hover:text-copper transition-colors duration-300 font-medium">Contact</a>
                     </div>
                 </div>
                 
                 <!-- Mobile menu button -->
                 <div class="md:hidden">
-                    <button id="mobile-menu-btn" class="text-ink hover:text-copper focus:outline-none">
+                    <button id="mobile-menu-btn" class="nav-text hover:text-copper focus:outline-none">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
